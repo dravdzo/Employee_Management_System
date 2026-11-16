@@ -1,0 +1,26 @@
+
+{
+  "name": "employee_management_system",
+  "version": "1.0.0",
+  "description": "A hands-on Employee Management System built with JavaScript, Node.js, Express.js, and MongoDB to practice real-world backend development through guided tasks, implementation, and code reviews.",
+  "main": "src/app.js",
+  "scripts": {
+    "start": "node src/app.js",
+    "dev": "node --watch src/app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dravdzo/Employee_Management_System.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dravdzo/Employee_Management_System/issues"
+  },
+  "homepage": "https://github.com/dravdzo/Employee_Management_System#readme",
+  "dependencies": {
+    "cors": "^2.8.6",
+    "express": "^5.3.0",
+    "mongoose": "^9.11.4"
+  }
+}
